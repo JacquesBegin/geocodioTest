@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/JacquesBegin/geocodioTest/issues"
   },
-  "homepage": "https://github.com/JacquesBegin/geocodioTest#readme"
+  "homepage": "https://github.com/JacquesBegin/geocodioTest#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "geocodio-library-node": "^1.0.0"
+  }
 }
