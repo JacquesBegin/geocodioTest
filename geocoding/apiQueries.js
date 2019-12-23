@@ -7,9 +7,11 @@ let api_key = `&api_key=${process.env.API_KEY}`;
 
 let singleQueryURL = "https://api.geocod.io/v1.4/geocode";
 
-let street = "";
-let city = "";
-let state = "";
-let postal_code = "";
-let country = "";
+// URL Parameters
+let street = "street=";
+let city = "city=";
+let state = "state=";
+let postal_code = "postal_code=";
+let country = "country";
+let limit = "limit=" // Used to limit the number of results for a given address
 
