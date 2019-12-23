@@ -3,7 +3,7 @@
 // https://api.geocod.io/v1.4/geocode?street=1109+N+Highland+St&city=Arlington&state=VA&api_key=YOUR_API_KEY
 
 require('dotenv').config()
-let api_key = process.env.API_KEY;
+let api_key = `&api_key=${process.env.API_KEY}`;
 
 let singleQueryURL = "https://api.geocod.io/v1.4/geocode";
 
