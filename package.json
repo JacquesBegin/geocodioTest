@@ -18,6 +18,6 @@
   "homepage": "https://github.com/JacquesBegin/geocodioTest#readme",
   "dependencies": {
     "dotenv": "^8.2.0",
-    "geocodio-library-node": "^1.0.0"
+    "geocodio-library-node": "^1.5.0"
   }
 }
